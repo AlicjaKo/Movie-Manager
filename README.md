@@ -40,24 +40,24 @@ const movieSchema = Joi.object({
 
 ## 🛠 Tech Stack
 
-Node.js + Express
-MongoDB + Mongoose
-Joi validation
-JWT Auth (jsonwebtoken)
-dotenv, nodemon
+- Node.js + Express
+- MongoDB + Mongoose
+- Joi validation
+- JWT Auth (jsonwebtoken)
+- dotenv, nodemon
 
 ## 🚀 Getting Started
 
-Clone the project
+- Clone the project: 
 git clone git@github.com:AlicjaKo/Movie-Manager.git
-npm install
-Create a .env file:
+- npm install
+- Create a .env file:
 ```
 MONGODB_URI=mongodb://localhost:27017/moviesDB
 JWT_SECRET=yourSuperSecretKey
 PORT=3005
 ```
-npm run dev
+- npm run dev
 
 ## 📄 License
 
